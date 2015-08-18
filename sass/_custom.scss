@@ -1,0 +1,27 @@
+.main-nav {
+	border: none;
+}
+.main-nav ul li {
+	border: none;
+}
+body.eurobike {
+	background: #fff;
+}
+.carousel-wrap {
+	width: 100%;
+	padding-top: 0px;
+}
+.main-nav ul li.megaMenu a {
+	color: #000;
+}
+.main-nav ul li.megaMenu:hover a {
+	color: #000;
+}
+.main-nav ul li.megaMenu:hover ul.dropdown-menu.M2 {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+.main-nav ul li.megaMenu:hover ul.dropdown-menu.M2 li.dropdown a:first-child {
+	color: #fff;
+}

@@ -1,0 +1,27 @@
+@import "vendor/_bootstrap.scss";
+@import "vendor/_bootstrap-theme.scss";
+@import "vendor/_fonts.scss";
+@import "vendor/_fontawesome.scss";
+@import "variables/_colors.scss";
+
+
+@import "main-content/_mobile-homepage.scss";
+@import "navbar/_mobile-navbar.scss";
+@import "navbar/_navbar-left.scss";
+@import "header/_mobile-header.scss";
+@import "footer/_mobile-footer.scss";
+@import "vendor/_grey-color.scss";
+@import "buttons/_buttons.scss";
+@import "product-box/_mobile-product-box.scss";
+
+
+@import "main-content/_breadcrumbs.scss";
+@import "main-content/_mobile-product-page.scss";
+@import "main-content/_mobile-category-page.scss";
+@import "main-content/_authentication-page.scss";
+@import "main-content/_mobile-cart-page.scss";
+@import "main-content/_account-page.scss";
+@import "main-content/_checkout-page.scss";
+@import "main-content/_compare-page.scss";
+@import "main-content/_paragraph.scss"; 
+@import "main-content/_mobile-account.scss";

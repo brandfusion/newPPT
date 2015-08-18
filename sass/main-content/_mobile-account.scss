@@ -1,0 +1,61 @@
+#authentication-page {margin:0 15px;}
+#authentication-page .new-cont select {width:100%;}
+#authentication-page .new-cont {
+	padding:0;
+}
+#authentication-page .new-cont input[type=text], #authentication-page .new-cont input[type=password] {
+	width:100%;
+}
+
+#LoginBox {
+  .modal-content {margin:0 auto;width:95%;}
+  .col-sm-4, .col-sm-8, .col-sm-6 { padding:0; width:100%;clear:both; }
+  .forgot {padding:10px 0 0 0;}
+  .login-box input[type=text], .login-box input[type=password] { width:100%; box-sizing:border-box; }
+  .button-green {margin:-55px 0 0 0; display:block; float:right;}
+}
+.breadcrumbs {
+    margin:0 0 15px 0;
+  }
+  .customer_center_block h3 {margin:0 0 5px 0;}
+  .customer_center_block, .customer_center_block li {padding:0;width:100%;} 
+  #account-page .col-xs-9 {width:100%;} 
+  #account-page .button-green {margin:0 0 15px 0;}
+  
+  
+  .account-content {
+    padding:10px 0;
+    label {width:30%; float:left; padding:15px 0 0 0; clear:left;}
+  }
+  .edit-profile {float:left;width:100%;}
+  .edit-profile input[type=text], .edit-profile select {width:65%;float:left;margin:10px 0 0 0;}
+    .view-profile label {float:none;padding:0;}
+  #datetimepicker {
+    width:65%;
+    float:left;
+
+    input[type=text] {
+      width:92%;
+      margin:10px 0 0 0;
+    }
+    .add-on {
+      display:block;
+      margin:20px 0 0 0;
+    }
+  }
+  .account-content.add, #account-page .address, #addresses {padding:10px 15px 0;width:100%;box-sizing:border-box;}
+  .account-header-black h2 {clear:left}
+  .account-content.form-account input[type=text] {width:69%;}
+  #account-page .order-tab tr td {padding:5px 10px 5px 0;}
+  .account-content.form-account select {width:69%;}
+  #addresses input.btn-calltoaction {margin:0 10px 0 15px;}
+
+  .change-password { 
+    padding:0; width:100%; 
+    .col-xs-2 {width:35%;padding:0;}
+    .col-xs-10 {width:65%;padding:0;}
+    input[type=password] { padding:15px 10px; width:100%; margin:5px 0; } 
+}
+#account-page h5 {
+  margin:20px 0 10px 0;
+}
