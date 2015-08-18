@@ -60,7 +60,7 @@
 	}
 	.bg_grey_light {
 		background: #f0f0f0;
-		padding: 0.5em 0;
+		padding: 0.5em 0 1em;
 		font-size:1em;
 
 		.item {
@@ -154,7 +154,8 @@
 
 	.social-media {
 		border:none;	
-		padding:10px 0 0 25px;
+		padding:10px 0 0 15px;
+		text-transform: inherit;
 
 		img {
 			margin:10px 10px 0 0;
@@ -172,7 +173,7 @@
 #gotop {
 	position: fixed;
 	bottom: 97px;
-	right: 5%;
+	right: 3%;
 	display: block;
 	overflow: hidden;
 	display:none;

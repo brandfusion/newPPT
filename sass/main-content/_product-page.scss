@@ -48,7 +48,7 @@
 		    		width: 100%;
 		    		clear:both;
 		    		float:left;
-		    		margin: 1em 0 0 0;
+		    		margin: 3.3em 0 0 0;
 		    		&:first-child {
 		    			margin: 0;
 		    		}
@@ -72,7 +72,7 @@
 		text-align: right;
 		padding: 0 0 0.5em 0;
 		margin: 0 0 0.5em 0;
-		border-bottom: 2px solid #fff;
+		border-bottom: 1px solid #fff;
 
 		p {
 			color: #5c5c5c;
@@ -160,16 +160,16 @@
 					float:left;
 					min-width:30px;
 					padding: 3px 6px;
-					color: #ef2424;
+					color: #000;
 					font-size: 14px;
 					font-weight: 400;
 					text-align: center;
 					margin: 0 5px 0 0;
+					background: #fff;
 					vertical-align: middle;
-					border: 2px solid #fff;
+
 					&.selected, &:hover {
-						border: 2px solid #ef2424;
-						background:#ef2424;
+						background: #444444;
 						color:#fff;
 					}
 				}
@@ -187,7 +187,15 @@
 			}
 		}
 		.place-order {	
-		    padding:0;		
+		    padding: 0;
+		    width: 100%;
+
+		    i {
+		    	vertical-align: middle;
+				margin-right: 10px;
+				font-size: 1.5em;
+			}
+
 			p {				
 				font-size: 13px;				
 				color: #000;
@@ -237,34 +245,47 @@
 					}
 				}
 			}
-			a.btn-place-order {					
-				i {
-					margin-right: 5px;
-				}
-			}
 			
 		}
 	}
 
 	// Image Panel
 	.image-panel {
-		max-height: 556px;
 		overflow: hidden; 
-		padding: 0;
 		border: 1px solid #eeeeee;
+		max-height: 609px;
+	    padding: 0;
+	    position: relative;
 
 		img {
 			max-width: 100%;
+			width: 100%;
 			margin:0 auto;
 			height: auto;
-			width: auto;
+		}
+		.indisponible-icon {
+			position:absolute;
+			left:5px;
+			top:5px;
+			width: 135px; 
+			height: 135px; 
+			display: block;z-index:1; 
+			background: url(../img/produs-indisponibil.png) no-repeat 0 0; 
+		}
+		.product-image-zoomed {
+			max-height: 607px;
+			display:block;
+			overflow:hidden;
+			padding:0;
+			width:100%;
 		}
 	}
-    
+	
+    		
 	.product-code {
 		margin:10px 0;
 		padding: 0 0 5px 0;
-		color: #999;
+		color: #444;
 		font-size: 12px;
 		line-height: 1;
 		clear: both;
@@ -304,8 +325,12 @@
 		z-index:99;
 	}	
 	.btn-place-order {
-		margin:0.4em 0 0 1em;
-		padding: 10px 15px;
+		margin:0.4em 0 0 0;
+		padding: 8px 15px;
+		width: 55%;
+		float:right;
+		background: #EF2424;
+		box-sizing: border-box;
 	}
 	.product-addtocart {
 		background: #f4f4f4;
